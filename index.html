@@ -1,41 +1,43 @@
 <h1>Test all the IGB JS Callbacks!</h1>
 
 <h2>Things that should work on their own</h2>
-<button type="button" onclick="CCPEVE.requestTrust('http://wiki.eveonline.com');">Request Trust</button>
-<button type="button" onclick="CCPEVE.openEveMail()">Open Mail</button>
-<button type="button" onclick="CCPEVE.showInfo(5, 30002659)">Show Info (Solar System 'Dodixie')</button>
-<button type="button" onclick="CCPEVE.showPreview(597)">Show Preview (Punisher)</button>
-<button type="button" onclick="CCPEVE.showRouteTo(30003276)">Show Route (current system to 30003276)</button>
-<button type="button" onclick="CCPEVE.showMap(30000380)">Show Map</button>
-<button type="button" onclick="CCPEVE.showFitting('597:25861;1:11269;1:1998;1:6673;3:1236;1:439;1:4025;1:1183;1::')">Show Fitting</button>
-<button type="button" onclick="CCPEVE.showMarketDetails(34)">Show Market Details</button>
-<button type="button" onclick="CCPEVE.setDestination(30003410)">Set Destination</button>
-<button type="button" onclick="CCPEVE.addWaypoint(30003410)">Add Waypoint</button>
-<button type="button" onclick="CCPEVE.joinChannel('IGB Chat')">Join IGB Chat Channel</button>
-<button type="button" onclick="CCPEVE.joinMailingList('IGB Announcements')">Join IGB Announcements List</button>
-<button type="button" onclick="CCPEVE.buyType(24445)">Buy Item</button>
-<button type="button" onclick="CCPEVE.findInContracts(24445)">Find In Contracts</button>
-<button type="button" onclick="CCPEVE.addToMarketQuickBar(24445)">Add To MarketQuickBar</button>
-<button type="button" onclick="CCPEVE.addContact(3018672)">Add Contact</button>
-<button type="button" onclick="CCPEVE.removeContact(3018672)">Remove Contact</button>
-<button type="button" onclick="CCPEVE.addCorpContact(3018672)">Add CorpContact</button>
-<button type="button" onclick="CCPEVE.removeCorpContact(3018672)">Remove CorpContact</button>
-<button type="button" onclick="CCPEVE.block(3018672)">Block</button>
-<button type="button" onclick="CCPEVE.addBounty(3018672)">addBounty</button>
-<button type="button" onclick="CCPEVE.inviteToFleet(3018672)">inviteToFleet</button>
-<button type="button" onclick="CCPEVE.startConversation(3018672)">startConversation</button>
-<button type="button" onclick="CCPEVE.showOnMap(1000115)">showOnMap</button>
-<button type="button" onclick="CCPEVE.sendMail(1000115)">sendMail</button>
-<button type="button" onclick="CCPEVE.bookmark(1000115)">bookmark</button>
-
+<ul>
+    <li><button type="button" onclick="CCPEVE.requestTrust('http://wiki.eveonline.com');">Request Trust</button></li>
+    <li><button type="button" onclick="CCPEVE.openEveMail()">Open Mail</button></li>
+    <li><button type="button" onclick="CCPEVE.showInfo(5, 30002659)">Show Info (Solar System 'Dodixie')</button></li>
+    <li><button type="button" onclick="CCPEVE.showPreview(597)">Show Preview (Punisher)</button></li>
+    <li><button type="button" onclick="CCPEVE.showRouteTo(30003276)">Show Route (current system to 30003276)</button></li>
+    <li><button type="button" onclick="CCPEVE.showMap(30000380)">Show Map</button></li>
+    <li><button type="button" onclick="CCPEVE.showFitting('597:25861;1:11269;1:1998;1:6673;3:1236;1:439;1:4025;1:1183;1::')">Show Fitting</button></li>
+    <li><button type="button" onclick="CCPEVE.showMarketDetails(34)">Show Market Details</button></li>
+    <li><button type="button" onclick="CCPEVE.setDestination(30003410)">Set Destination</button></li>
+    <li><button type="button" onclick="CCPEVE.addWaypoint(30003410)">Add Waypoint</button></li>
+    <li><button type="button" onclick="CCPEVE.joinChannel('IGB Chat')">Join IGB Chat Channel</button></li>
+    <li><button type="button" onclick="CCPEVE.joinMailingList('IGB Announcements')">Join IGB Announcements List</button></li>
+    <li><button type="button" onclick="CCPEVE.buyType(24445)">Buy Item</button></li>
+    <li><button type="button" onclick="CCPEVE.findInContracts(24445)">Find In Contracts</button></li>
+    <li><button type="button" onclick="CCPEVE.addToMarketQuickBar(24445)">Add To MarketQuickBar</button></li>
+    <li><button type="button" onclick="CCPEVE.addContact(3018672)">Add Contact</button></li>
+    <li><button type="button" onclick="CCPEVE.removeContact(3018672)">Remove Contact</button></li>
+    <li><button type="button" onclick="CCPEVE.addCorpContact(3018672)">Add CorpContact</button></li>
+    <li><button type="button" onclick="CCPEVE.removeCorpContact(3018672)">Remove CorpContact</button></li>
+    <li><button type="button" onclick="CCPEVE.block(3018672)">Block</button></li>
+    <li><button type="button" onclick="CCPEVE.addBounty(3018672)">addBounty</button></li>
+    <li><button type="button" onclick="CCPEVE.inviteToFleet(3018672)">inviteToFleet</button></li>
+    <li><button type="button" onclick="CCPEVE.startConversation(3018672)">startConversation</button></li>
+    <li><button type="button" onclick="CCPEVE.showOnMap(1000115)">showOnMap</button></li>
+    <li><button type="button" onclick="CCPEVE.sendMail(1000115)">sendMail</button></li>
+    <li><button type="button" onclick="CCPEVE.bookmark(1000115)">bookmark</button></li>
+</ul>
 
 <h2>Things that probably need tweaking to work</h2>
-<button type="button" onclick="CCPEVE.awardDecoration(3018672)">awardDecoration</button>
-<button type="button" onclick="CCPEVE.showContracts(3018672)">showContracts</button>
-<button type="button" onclick="CCPEVE.editMember(3018672)">editMember</button>
-<button type="button" onclick="CCPEVE.showContract(30003410, 14)">Show Contract</button>
-<button type="button" onclick="CCPEVE.createContract(2)">Create Auction Contract</button>
-<button type="button" onclick="CCPEVE.showContents(1000115)">showContents</button>
-
+<ul>
+    <li><button type="button" onclick="CCPEVE.awardDecoration(3018672)">awardDecoration</button></li>
+    <li><button type="button" onclick="CCPEVE.showContracts(3018672)">showContracts</button></li>
+    <li><button type="button" onclick="CCPEVE.editMember(3018672)">editMember</button></li>
+    <li><button type="button" onclick="CCPEVE.showContract(30003410, 14)">Show Contract</button></li>
+    <li><button type="button" onclick="CCPEVE.createContract(2)">Create Auction Contract</button></li>
+    <li><button type="button" onclick="CCPEVE.showContents(1000115)">showContents</button></li>
+</ul>
 
 
